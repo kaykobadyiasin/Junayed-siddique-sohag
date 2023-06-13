@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+.profile{
+    margin-top: 200px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.prof_img{
+    width: 300px;
+}
+.image{
+    border-radius: 50px;
+    width: 100%;
+}
+.prof_info{
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 500px){
+    .profile{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
